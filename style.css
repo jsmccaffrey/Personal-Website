@@ -16,6 +16,7 @@
     --fs-32: 2rem;
     --fs-24: 1.5rem;
     --container: 69.275rem;
+    --transition: 350ms ease-in-out;
 }
 
 html {
@@ -38,16 +39,21 @@ body {
     line-height: 1.56;
 }
 
+a {
+    transition: color var(--transition);
+}
+
 a:hover {
-    color:var(--accent)
+    color: var(--accent);
 }
 
-.header__social {
-    display: inline-block;
-}
-
-.header__social:hover > svg > path {
-    fill: var(--accent);
+.visually-hidden {
+    position:   absolute;
+    left:       -10000px;
+    top:        auto;
+    width:      1px;
+    height:     1px;
+    overflow:   hidden;
 }
 
 .wrapper {
@@ -65,7 +71,6 @@ a:hover {
 
 /* HEADER */
 .header{
-
 }
 
 .header__home{
@@ -73,4 +78,16 @@ a:hover {
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
     color: var(--text1);
     text-decoration: none;
+}
+
+.header__social {
+    display: inline-block;
+}
+
+.header__social > svg > path {
+    transition: fill var(--transition);
+}
+
+.header__social:hover > svg > path {
+    fill: var(--accent);
 }
