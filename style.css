@@ -71,6 +71,15 @@ a:hover {
 
 /* HEADER */
 .header{
+    margin-top: 20px;
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px 25px;
 }
 
 .header__home{
@@ -78,10 +87,11 @@ a:hover {
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
     color: var(--text1);
     text-decoration: none;
+    flex: 1 0 100%;
 }
 
-.header__social {
-    display: inline-block;
+.header__social svg {
+    display: block;
 }
 
 .header__social > svg > path {
@@ -91,3 +101,16 @@ a:hover {
 .header__social:hover > svg > path {
     fill: var(--accent);
 }
+
+@media (min-width: 37.5em){ 
+    .header__nav {
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+    }
+    .header__home {
+        flex: auto;
+    }
+}
+
+
