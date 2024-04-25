@@ -1,6 +1,6 @@
 # [scipiomccaffrey.com](http://scipiomccaffrey.com/)
 
- - Utilized HTML and CSS to translate design files into a visually appealing and functional single-page portfolio website
+ - Utilized HTML and CSS to translate design files into a visually appealing and functional single-page portfolio site
 
  - Ensured seamless user experience across various devices by implementing responsive design techniques, including media queries and srcset attributes, to adapt the layout for mobile, tablet, and desktop screens.
 
