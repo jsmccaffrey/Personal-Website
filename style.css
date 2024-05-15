@@ -470,6 +470,42 @@ h1 > span {
   }
 }
 
+/* EXPERIENCE */
+
+.experience__wrapper {
+    padding-block: 140px;
+  }
+  
+  .experience__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  .experience__headline {
+    grid-column: 1 / span 2;
+    margin-block-end: 0;
+  }
+  
+  .experience__contact {
+    grid-column: 1 / span 2;
+  }
+  
+    .experience__contact {
+      justify-self: end;
+    }
+  
+    .experience__headline,
+    .experience__contact {
+      grid-column: span 1;
+    }
+  
+    .experience__contact {
+      align-self: center;
+    }
+
 /* PROJECTS */
 
 .projects__wrapper {
