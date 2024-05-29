@@ -6,7 +6,7 @@
 
  - Addressed challenges such as unexpected layout changes and horizontal scrollbars, utilizing CSS positioning techniques and responsive image fixes to ensure optimal performance and usability across all devices.
 
- - Implemented functional contact form to receive emails from visitors.
+ - Implemented functional contact form for receiving emails from visitors.
 
    ## Desktop
 <img width="1133" alt="Screenshot 2024-05-15 at 5 23 33 PM" src="https://github.com/jsmccaffrey/Personal-Website/assets/84482329/c341bf81-010a-4a25-aebe-8efabbf2ad41">
